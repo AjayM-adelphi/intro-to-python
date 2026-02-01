@@ -8,10 +8,11 @@ This chapter is *ready* for Phy 225 students to work on. Students should review 
 -  `03_exercises_calculator.ipynb`.
 
 **Instructions to open in Github Codespaces:**
+Make sure you are working on your personal fork of intro-to-python.
 To open in Github Codespaces, click the green "Code" button above, select the "Codespaces" tab and either create a new Codespace or open an existing one. 
 
 **Instructions for using on personal computer:**
-If you haven't yet cloned the intro-to-python repository: Make sure you have VS Code, Python, and Github Desktop installed on your computer. Then, follow these steps:
+If you haven't yet cloned your fork of the intro-to-python repository: Make sure you have VS Code, Python, and Github Desktop installed on your computer. Then, follow these steps:
 1. Open Github Desktop and clone the repository to your local machine. (File>Clone Repository). Enter the URL: https://github.com/Prof-McDonough/intro-to-python
 2. Once cloned, there should be an option to "Open in VS Code" in Github Desktop. Click that to open the repository in VS Code.
 3. Follow steps 3 and 4 below. 

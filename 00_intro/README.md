@@ -5,6 +5,7 @@
 This chapter is *ready* for Phy 225 students to work on. Students should review the 'content' material and complete `01_exercises_markdown.ipynb`.
 
 **Instructions to open in Github Codespaces:**
+Make sure you are working on your personal fork of intro-to-python.
 To open in Github Codespaces, click the green "Code" button above, select the "Codespaces" tab and either create a new Codespace or open an existing one. 
 
 **Instructions for using on personal computer:**
