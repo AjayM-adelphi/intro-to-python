@@ -28,3 +28,20 @@ def print_league_table(ranks, teams, links, games_played, points):
 print_league_table(ranks, teams, team_links, games_played, points)
 
 # I was trying to get the names to be bolded but I assume that the syntax doesn't work here in colab
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+
+print("Education is what remains after one has forgotten what one has learned in school")
+print ("- **Albert Einstein**")
+
+-------------------------------------------
+
+from IPython.display import Image, display
+
+display(Image(url='https://i.ytimg.com/vi/-BoSRlzy9c4/maxresdefault.jpg'))
+
+
