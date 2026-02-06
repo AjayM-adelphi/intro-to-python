@@ -1,0 +1,30 @@
+
+
+# Data
+ranks = [1, 2, 3]
+teams = ["Bayern Munich", "Borussia Dortmund", "TSG Hoffenheim"]
+team_links = [
+    "https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen",
+    "https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund",
+    "https://www.bundesliga.com/en/bundesliga/clubs/tsg-hoffenheim"
+]
+games_played = [20, 20, 20]
+points = [51, 45, 42]
+
+def print_league_table(ranks, teams, links, games_played, points):
+    # Print table header
+    print("[] **Rank**[] **Team Name** [] [] **Games Played** [][] **Points Scored** []")
+   
+
+    # Print each team's row
+    for rank, team, link, games, pts in zip(
+        ranks, teams, links, games_played, points):
+        
+        print(
+            f"| **{rank}** | [{team}]({link}) | *{games}* | *{pts}* |"
+        )
+
+# Print the table
+print_league_table(ranks, teams, team_links, games_played, points)
+
+# I was trying to get the names to be bolded but I assume that the syntax doesn't work here in colab
