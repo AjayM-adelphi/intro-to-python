@@ -45,3 +45,32 @@ from IPython.display import Image, display
 display(Image(url='https://i.ytimg.com/vi/-BoSRlzy9c4/maxresdefault.jpg'))
 
 
+--------------------------------------------------------------------------------
+01_ elements 
+--------------
+greeting = "Hello"
+audience = "World"
+
+print(greeting + audience)
+-------------------------------
+
+# This is an example of operator overloading because we are altering the normal behavior of the operators and using the operator to work in a different way then its to be expected
+
+---------------------------------------
+
+greeting = "Hello"
+audience = "World"
+
+print(greeting,audience)
+
+-------------------------------------------
+
+for number in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+    print(number, end=" ")
+
+# end="\n" is what python reads as place a newline at the end of an output. This is also the default in the print statement but you can control the output with the end command
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
