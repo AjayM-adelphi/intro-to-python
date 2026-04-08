@@ -2,4 +2,54 @@ I think I am going to work on finding the solution to the Heat Diffusion Equatio
 
 I did a similar thing with Professor Liang in the past, but I want to see how much I have improved with my coding and math skills, so I want to try it again.
 
-If you think this is okay or not okay let me know
+The Title will be "Solutions to the Heat-Diffusion Equation Modeled in Python"
+
+This project focuses on the numerical solution of the one- and two-dimensional Heat Diffusion Equation, a  partial differential equation that models the evolution of temperature in a medium over time. The primary goal is to transform the continuous equation into a discrete form using finite difference methods and to simulate heat flow with initial and boundary conditions. The project aims to visualize the temperature evolution and to compare the results with with real world physics to test if the simulation is correct.
+
+As for the methods I didn't know what was appropiate but I looked it up and the numerical methods that seem appropiate to use are the "Forward Time Centered Space (FTCS) method", the "Backward Time Centered Space (BTCS) method", and the Crank–Nicolson method. The FTCS method provides a simple explicit approach but requires careful attention to stability conditions, while the BTCS and Crank–Nicolson methods introduce implicit formulations that improve stability and accuracy at the cost of solving linear systems at each time step. By using three different methods we can compare the computational efficiency and terms of stability of these numerical methods to solve the HDE. The way this is different from how I did it in the past is that I solved the equations by hand and tried to plot the solutions to boundary problems given to me. Now I am explicitely solving the HDE using numerical methods.
+
+The problems I plan to solve are:
+
+The HDE for a Cartesian domain in 1D (a line) and 2D (a rectangle), for any arbitrary
+boundary conditions and an initial temperature distribution
+
+Solve the HDE for a 2D annular domain(A Disk Shape), with arbitrary boundary conditions and an initial
+temperature distribution
+
+Solve the HDE for any 2D space, with arbitrary boundary conditions over arbitrary boundaries and an initial temperature distribution
+
+For my planned repository I will have:
+
+README.md - general abstract and what the point of the project is
+Data - how I collected and solved the problems with explanations
+Summary - Everything put together nicely like a report
+
+
+Given that it is April 8th as of writing this, this is the step by step plan:
+
+April 11th - Start researching the numerical methods as well as brush myself up with the HDE
+
+April 13th - Start coding the numerical method for FTCS
+
+April 15th - Start coding for BTCS
+
+April 17th - Start coding for Crank Nicolson
+
+April 21st -  Refine all code and make sure it works
+
+April 23rd - Apply the 3 methods to  The HDE for a Cartesian domain in 1D (a line) and 2D (a rectangle), for any arbitrary
+boundary conditions and an initial temperature distribution
+
+April 25th -  Apply the 3 methods to Solve the HDE for a 2D annular domain(A Disk Shape), with arbitrary boundary conditions and an initial
+temperature distribution
+
+April 28th - Apply the 3 methods to Solve the HDE for a 2D annular domain(A Disk Shape), with arbitrary boundary conditions and an initial
+temperature distribution
+
+May 1st- Hopefully tweak the remaining bugs by this time 
+
+May 3rd- Have fully developed report awaiting review from classmates
+
+As for resources I plan to search things up as I go on google and I will include those type of things in my Data section of the repository
+
+
